@@ -25,7 +25,7 @@ db.init_app(app)
 
 @app.route('/')
 def index():
-    return '<h1>Code challenge</h1>'
+    return '<h1>PizzaFace</h1>'
 
 @app.route('/restaurants', methods=['GET'])
 def restaurants():
